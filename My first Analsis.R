@@ -18,6 +18,7 @@ nJanuary_23 <- read_csv("C:/0work/0Data Analsis Course/Module 8/Capstone 1/Extra
 nFebruary_23 <- read_csv("C:/0work/0Data Analsis Course/Module 8/Capstone 1/Extract/202302-divvy-tripdata.csv")
 nMarch_23 <- read_csv("C:/0work/0Data Analsis Course/Module 8/Capstone 1/Extract/202303-divvy-tripdata.csv")
 
+#### PERSONAL NOTE: DIRECTORIES SHOULD NOT HAVE SPACES
 #Combine the data into one workable data frame with NA values, as columns are consistent, full join!
 
 nRaw_Data <- nApril_22 %>% 
